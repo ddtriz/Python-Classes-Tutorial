@@ -1,3 +1,7 @@
+#BASIC KNOWLDEGE ABOUT CLASSES
+
+
+
 #What is a class?
 
 class firstClass():#Determine a class in the code by using [class]
@@ -20,15 +24,18 @@ firstClass() #OUTPUT:[ hello ]
 print(firstClass)#OUTPUT:[ <class '__main__.firstClass> ]
 #Output using Attributes! :D
 print(firstClass.name)#OUTPUT:[ Jhon ]
-print(firstClass.identification)#OUTPUT:[  ]
+print(firstClass.identification)#OUTPUT:[ 326536123 ]
 
-
-
-
-
+#You can also create objects to use better classes.
+#It's like importing something as something. Example:
+#import pyaudio as pA
+#pA.listen() bla bla bla
+#You can do the same with classes. Just assign a name to the class:
 fC = firstClass()
+fC.name = "Rose"
+fC.identification = 112233445566
 
-
+#That's all the basics about the classes, at least I think.
 
 
 #hope you like it and understood it.
